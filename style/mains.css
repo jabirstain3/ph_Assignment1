@@ -1,0 +1,42 @@
+html{
+    background-color: rgba(229, 84, 115, 0.10); ;
+}
+header{
+    background-color: white;
+    color: black;
+}
+.name{
+    font-size: 85px;
+    font-weight: 800;
+    margin: 0px;
+}
+.banner-headding{
+    font-size: 50px;
+    font-weight: 500;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.content{
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.banner{
+    display: flex;
+    justify-content: space-between;
+    padding: 70px 100px  0px 100px;
+    align-items: center;
+}
+
+.head-pic{
+    width: 500px;
+    
+    
+}
+
+.banner_content{
+    padding: 2%;
+    max-width: 800px;
+}
+
