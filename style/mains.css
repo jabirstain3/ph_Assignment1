@@ -1,8 +1,10 @@
 html{
-    background-color: rgba(229, 84, 115, 0.10); ;
-}
-header{
     background-color: white;
+}
+/*header sectio*/
+header{
+    
+    background: rgba(229, 84, 115, 0.10); 
     color: black;
 }
 .name{
@@ -20,12 +22,13 @@ header{
 .content{
     font-weight: 400;
     font-size: 20px;
+    padding-top: 8x ;
 }
 
 .banner{
     display: flex;
     justify-content: space-between;
-    padding: 70px 100px  0px 100px;
+    padding: 70px 150px  0px 150px;
     align-items: center;
 }
 
@@ -38,5 +41,98 @@ header{
 .banner_content{
     padding: 2%;
     max-width: 800px;
+}
+
+.primaryB{
+    border:0px none;
+    border-radius: 8px;
+    padding: 10px 30px;
+    background-color: #E55473;
+    color:white;
+}
+
+ /*main section
+ main{
+    max-width: 1140px;
+    margin: 50px 180px 0 180px ;
+    text-align: center;
+    
+}
+section{
+    background-color: aqua;
+}
+.hadding{
+    font-size:40px ;
+    font-weight: 700; 
+       
+}
+.off{
+    padding-top: 130px;
+    
+}
+
+
+.fo{
+    display: flex;
+    align-items:center;
+    margin: 50px 20px;
+}
+.fo > div{
+    margin: 20px;
+    
+}*/
+main{
+    margin: 0px 150px 10px;
+}
+.off{
+    text-align: center;
+    padding-top: 120px;
+}
+.hadding{
+    font-size:40px ;
+    font-weight: 700; 
+       
+}
+.fo{
+    border: 1px solid black;
+    display: flex;
+    align-items:center;
+    margin: 0px 35px;
+}
+.fo > div{
+    display:grid;
+    margin: 40px 20px 0px;
+}
+.of > div > p{
+    text-align: center;
+    text-decoration: underline;
+    font-size: 18px;
+}
+#one{
+    background-color:  rgba(167, 33, 98, 0.15);
+    border-radius: 20px 20px 0px 0px;
+    border-bottom:40px solid #e397a8;
+    width: 464px;
+    height: 538px;
+}
+
+#two{
+    background-color: rgba(5, 151, 160, 0.15);
+    border-radius: 20px 20px 0px 0px;
+    border-bottom:40px solid rgba(14, 59, 61, 0.15);
+    width: 464px;
+    height: 538px;
+}
+
+#three{
+    background-color:rgba(71, 125, 17, 0.15);
+    border-radius: 20px 20px 0px 0px;
+    border-bottom:40px solid rgba(62, 119, 5, 0.15);
+    width: 464px;
+    height: 538px;
+}
+.offer{
+    border: 1px solid black;
+    background-color: rgba(229, 84, 115, 0.05);
 }
 
