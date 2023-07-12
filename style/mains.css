@@ -6,6 +6,7 @@ header{
     
     background: rgba(229, 84, 115, 0.10); 
     color: black;
+    margin-bottom: 120px;
 }
 .name{
     font-size: 85px;
@@ -20,9 +21,9 @@ header{
 }
 
 .content{
+    border: 1px solid black;
     font-weight: 400;
     font-size: 20px;
-    padding-top: 8x ;
 }
 
 .banner{
@@ -51,59 +52,31 @@ header{
     color:white;
 }
 
- /*main section
- main{
-    max-width: 1140px;
-    margin: 50px 180px 0 180px ;
-    text-align: center;
-    
-}
-section{
-    background-color: aqua;
-}
-.hadding{
-    font-size:40px ;
-    font-weight: 700; 
-       
-}
-.off{
-    padding-top: 130px;
-    
-}
-
-
-.fo{
-    display: flex;
-    align-items:center;
-    margin: 50px 20px;
-}
-.fo > div{
-    margin: 20px;
-    
-}*/
+ /*main section*/
 main{
-    margin: 0px 150px 10px;
+    margin: 0px 0px 10px;
+    color: black;
 }
+
 .off{
+    border: 1px solid black;
     text-align: center;
-    padding-top: 120px;
+    margin: 0px 150px 0px;
 }
 .hadding{
     font-size:40px ;
     font-weight: 700; 
-       
+    border: 1px solid black;
 }
 .fo{
     border: 1px solid black;
     display: flex;
     align-items:center;
-    margin: 0px 35px;
+    margin: 0px 185px 0px;
 }
 .fo > div{
     display:grid;
     margin: 40px 20px 0px;
-}
-.of > div > p{
     text-align: center;
     text-decoration: underline;
     font-size: 18px;
@@ -115,7 +88,6 @@ main{
     width: 464px;
     height: 538px;
 }
-
 #two{
     background-color: rgba(5, 151, 160, 0.15);
     border-radius: 20px 20px 0px 0px;
@@ -123,7 +95,6 @@ main{
     width: 464px;
     height: 538px;
 }
-
 #three{
     background-color:rgba(71, 125, 17, 0.15);
     border-radius: 20px 20px 0px 0px;
@@ -133,6 +104,103 @@ main{
 }
 .offer{
     border: 1px solid black;
-    background-color: rgba(229, 84, 115, 0.05);
+    background-color: rgba(39, 39, 39, 0.05); 0.05);
+    display: flex;
+    align-items:center;
+    margin: 100px 185px 120px;
+    padding:0px 290px 60px;
 }
+.offer > div{
+    border: 1px solid black;
+    display:grid;
+    margin: 70px 50px 0px;
+    text-align: center;
+    font-size: 18px;
+}
+.hotd{
+    border: 1px solid black;
+    background-color: rgba(192, 24, 60, 0.05);
+    display: flex;
+    justify-content: space-between;
+    padding: 70px 350px  0px  340px;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.hotd > div > .content{
+    border: 1px solid black;
+    font-weight: 200;
+    padding-bottom: 25px;
+}
+.hotd > div{
+    border: 1px solid black;
+    margin-right: 150px;
+    max-width: 800px;
+}
+.newcontent{
+    border: 1px solid black;
+    font-weight: 400;
+    font-size: 20px;
+    margin: 0px 0px ;
+    padding:0px 450px; 
+}
+.media{
+    border: 1px solid black;
+    display:flex;
+    margin: 30px 190px 100px;
+}
+.media > img{
+    border: 1px solid black;
+    display:flex;
+    margin: 0px 16px 0px;
+}
+.florist{
+    border: 1px solid black;
+}
+.subs{
+    border: 1px solid black;
+    background: rgba(192, 24, 60, 0.05);
+    align-items:center;
+    margin: 100px 0px 120px;
+    padding:30px 290px 60px;
+}
+.info{
+    
+    border: 1px solid black;
+    align-items:center;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 150px 0px;
+    padding:5px 250px 10px;
+}
+.info input{
+    display:block;
+    margin-right: 10px;
+    padding:9px 200px 9px 24px ;
+}
+
+.off1{
+    border: 1px solid black;
+    text-align: center;
+    margin: 0px 150px 0px;
+}
+.hadding1{
+    font-size:40px ;
+    font-weight: 700; 
+    border: 1px solid black;
+    Margin:30px 30px 20px;
+}
+.newcontent1{
+    border: 1px solid black;
+    font-weight: 400;
+    font-size: 20px;
+    margin: 10px ;
+    padding:0px 250px; 
+}
+footer{
+    background-color: #e9375e;
+    padding-bottom: 500px;
+}
+
 
