@@ -1,7 +1,15 @@
 html{
     background-color: white;
+    font-family: 'Lato', sans-serif ;
+    font-family: 'Open Sans', sans-serif;
 }
 /*header sectio*/
+.V1{
+    color: rgb(208, 12, 77);
+}
+.V2{
+    color: rgba(3, 90, 13, 0.909);
+}
 header{
     
     background: rgba(229, 84, 115, 0.10); 
@@ -19,35 +27,33 @@ header{
     margin-top: 10px;
     margin-bottom: 5px;
 }
-
 .content{
-    border: 1px solid black;
     font-weight: 400;
     font-size: 20px;
 }
-
 .banner{
     display: flex;
     justify-content: space-between;
     padding: 70px 150px  0px 150px;
     align-items: center;
 }
-
 .head-pic{
     width: 500px;
     
     
+    
+   
+    
 }
-
 .banner_content{
     padding: 2%;
     max-width: 800px;
 }
-
 .primaryB{
     border:0px none;
     border-radius: 8px;
     padding: 10px 30px;
+    font-size: 24px;
     background-color: #E55473;
     color:white;
 }
@@ -57,19 +63,17 @@ main{
     margin: 0px 0px 10px;
     color: black;
 }
-
 .off{
-    border: 1px solid black;
+    
     text-align: center;
     margin: 0px 150px 0px;
 }
 .hadding{
     font-size:40px ;
     font-weight: 700; 
-    border: 1px solid black;
 }
 .fo{
-    border: 1px solid black;
+   
     display: flex;
     align-items:center;
     margin: 0px 185px 0px;
@@ -103,7 +107,7 @@ main{
     height: 538px;
 }
 .offer{
-    border: 1px solid black;
+    
     background-color: rgba(39, 39, 39, 0.05); 0.05);
     display: flex;
     align-items:center;
@@ -111,14 +115,14 @@ main{
     padding:0px 290px 60px;
 }
 .offer > div{
-    border: 1px solid black;
+    
     display:grid;
     margin: 70px 50px 0px;
     text-align: center;
     font-size: 18px;
 }
 .hotd{
-    border: 1px solid black;
+    
     background-color: rgba(192, 24, 60, 0.05);
     display: flex;
     justify-content: space-between;
@@ -127,80 +131,107 @@ main{
     text-align: center;
     margin-bottom: 100px;
 }
-
 .hotd > div > .content{
-    border: 1px solid black;
+   
     font-weight: 200;
     padding-bottom: 25px;
 }
 .hotd > div{
-    border: 1px solid black;
+    
     margin-right: 150px;
     max-width: 800px;
 }
 .newcontent{
-    border: 1px solid black;
+    
     font-weight: 400;
     font-size: 20px;
     margin: 0px 0px ;
     padding:0px 450px; 
 }
 .media{
-    border: 1px solid black;
+    
     display:flex;
     margin: 30px 190px 100px;
 }
 .media > img{
-    border: 1px solid black;
+    
     display:flex;
     margin: 0px 16px 0px;
 }
 .florist{
-    border: 1px solid black;
+
+    justify-content: center;
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 250px 50px 250px;
+}
+.florist > div > p {
+    max-width:600px;
+    font-size: 20px;
+}
+.florist > div >img{
+    width: 600px;
+    height: 400px;
 }
 .subs{
-    border: 1px solid black;
+    
     background: rgba(192, 24, 60, 0.05);
     align-items:center;
     margin: 100px 0px 120px;
-    padding:30px 290px 60px;
+    padding:60px 290px 100px;
 }
 .info{
-    
-    border: 1px solid black;
     align-items:center;
     display: flex;
     justify-content: space-between;
-    margin: 10px 150px 0px;
-    padding:5px 250px 10px;
+    padding:5px 340px 10px;
 }
 .info input{
     display:block;
-    margin-right: 10px;
-    padding:9px 200px 9px 24px ;
+    margin-right: 15px;
+    padding:12px 200px 9px 20px ;
+    font-size: 18px;
 }
 
 .off1{
-    border: 1px solid black;
+    
     text-align: center;
     margin: 0px 150px 0px;
 }
 .hadding1{
     font-size:40px ;
     font-weight: 700; 
-    border: 1px solid black;
     Margin:30px 30px 20px;
 }
 .newcontent1{
-    border: 1px solid black;
+    
     font-weight: 400;
     font-size: 20px;
     margin: 10px ;
     padding:0px 250px; 
 }
+/*footer section*/
 footer{
-    background-color: #e9375e;
-    padding-bottom: 500px;
+    background-color: rgba(103, 147, 59, 0.568);
+    padding: 80px 0px 150px;
+    text-align: center;
+}
+.name1{
+    font-size: 60px;
+    font-weight: 800;
+    margin: 0px;
+    margin-bottom: 20px;
+}
+.content1{
+    color: #750820;
+    font-weight: 400;
+    font-size: 20px;
+}
+.orn{
+    margin-top: 60px;
+    color:antiquewhite;
+    font-weight: 400;
+    font-size: 18px;
 }
 
 
